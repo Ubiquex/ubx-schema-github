@@ -76,3 +76,13 @@ one `[dynamic_providers.github]` entry driving generation from the
 start, no separate `github_ds` table to collapse away later, unlike
 `ubx-schema-kubernetes`/`ubx-schema-datadog`, which were regenerated and
 republished onto this shape after starting on the older, two-table one.
+
+<!-- README-GEN:BEGIN -->
+**Real, current published version:** `v1.0.0`
+
+## Links
+
+- Docs: https://docs.ubiquex.io
+- Internals (architecture and design): https://github.com/Ubiquex/ubiquex-internals
+- Linear board: https://linear.app/ubiquex
+<!-- README-GEN:END -->
