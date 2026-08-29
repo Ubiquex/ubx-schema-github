@@ -14,9 +14,18 @@ GitHub's own real published identity is a GROUP of two members, both
 fetched from the identical live GHEC (GitHub Enterprise Cloud) OpenAPI
 description but built through genuinely different pipelines:
 
-- `github` -- resource mode (80 real resource types).
-- `github_ds` -- data-source mode (262 real, unclaimed read-only
-  operations).
+- `github` -- resource mode (91 real resource types -- UBI-181's own
+  narrow create-verb allowlist admits 19 real, published operations a
+  literal "create"/"insert" check missed, mostly GitHub's own real
+  `create-or-update-*-secret`/`restore-package-*` shapes; 8 of those 19
+  collide on typeName with an already-claimed resource reachable at a
+  second real path -- the identical response schema, correctly kept once
+  and skipped rather than disambiguated, this repo's own established
+  policy, not new here).
+- `github_ds` -- data-source mode (250 real, unclaimed read-only
+  operations -- down from the pre-UBI-181 count: the same PR's own
+  five-rule filter now excludes watch/operation-status/execution/
+  computed/reference-duplication candidates).
 
 - `manifest.json` -- the group's own real identity: `schema_format`,
   `provider`, one `version` for the WHOLE group, and which member names
