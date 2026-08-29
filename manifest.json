@@ -1,9 +1,10 @@
 {
   "schema_format": 3,
   "provider": "github",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "members": [
     "github",
     "github_ds"
-  ]
+  ],
+  "min_binary_version": "1.0.2"
 }
