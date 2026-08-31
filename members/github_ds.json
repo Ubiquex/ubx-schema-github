@@ -43794,6 +43794,12 @@
               "description": "The amount consumed for a user-scoped budget, or for a multi-user budget when filtering by user.",
               "type": "number"
             },
+            "expires_at": {
+              "description": "The date the budget will expire in `YYYY-MM-DD` format. Only dates in the future are accepted.\nIf not provided, the budget will not expire.\n\nOnly supported for budgets with `budget_scope` of `user`",
+              "example": "2026-12-31",
+              "format": "date",
+              "type": "string"
+            },
             "id": {
               "description": "The unique identifier for the budget",
               "example": "2066deda-923f-43f9-88d2-62395a28c0cdd",
@@ -50529,6 +50535,12 @@
                       "type": "string"
                     }
                   ]
+                },
+                "expires_at": {
+                  "description": "The date the budget will expire in `YYYY-MM-DD` format. Only dates in the future are accepted.\nIf not provided, the budget will not expire.\n\nOnly supported for budgets with `budget_scope` of `user`",
+                  "example": "2026-12-31",
+                  "format": "date",
+                  "type": "string"
                 },
                 "id": {
                   "description": "ID of the budget.",
@@ -79013,6 +79025,24 @@
           "title": "DismissalRestriction",
           "type": "object"
         },
+        "repository-rule-params-proof-of-presence": {
+          "description": "Require a fresh authentication before a pull request can be merged.",
+          "properties": {
+            "required_authentication_level": {
+              "description": "The level of authentication required before a pull request can be merged.",
+              "enum": [
+                "reauth",
+                "mfa"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "required_authentication_level"
+          ],
+          "title": "ProofOfPresence",
+          "type": "object"
+        },
         "repository-rule-params-required-reviewer-configuration": {
           "description": "A reviewing team, and file patterns describing which files they must approve changes to.",
           "properties": {
@@ -89001,6 +89031,12 @@
                   "description": "The consumed amount for the specified user within the budget. Only included for `user`-scoped budgets.",
                   "example": 42.5,
                   "type": "number"
+                },
+                "expires_at": {
+                  "description": "The date the budget will expire in `YYYY-MM-DD` format. Only dates in the future are accepted.\nIf not provided, the budget will not expire.\n\nOnly supported for budgets with `budget_scope` of `user`",
+                  "example": "2026-12-31",
+                  "format": "date",
+                  "type": "string"
                 },
                 "id": {
                   "description": "ID of the budget.",
@@ -254256,6 +254292,11 @@
                         }
                       ]
                     },
+                    "expires_at": {
+                      "description": "The date the budget will expire in `YYYY-MM-DD` format. Only dates in the future are accepted.\nIf not provided, the budget will not expire.\n\nOnly supported for budgets with `budget_scope` of `user`",
+                      "format": "date",
+                      "type": "string"
+                    },
                     "prevent_further_usage": {
                       "description": "Whether to prevent additional spending once the budget is exceeded. For `user` and `multi_user_customer` scopes, this must be `true`.",
                       "type": "boolean"
@@ -254554,6 +254595,22 @@
                             "SkuPricing"
                           ],
                           "type": "string"
+                        }
+                      ]
+                    },
+                    "expires_at": {
+                      "description": "The date the budget will expire in `YYYY-MM-DD` format. Only dates in the future are accepted.\nIf not set, the budget will not expire. Setting to `null` or `0` will remove the expiration date from a budget if set.\n\nOnly supported for budgets with `budget_scope` of `user`",
+                      "oneOf": [
+                        {
+                          "format": "date",
+                          "nullable": true,
+                          "type": "string"
+                        },
+                        {
+                          "enum": [
+                            0
+                          ],
+                          "type": "integer"
                         }
                       ]
                     },
@@ -289317,7 +289374,7 @@
       },
       "/orgs/{org}/teams/{team_slug}/members": {
         "get": {
-          "description": "Team members will include the members of child teams.\n\nEach member includes their `role` on the team (`member` or `maintainer`) and an `inherited` flag indicating whether the membership is inherited from a child team (`true`) or is a direct membership (`false`). These fields let you read a member's role and direct/inherited status without additional requests.\n\nTo list members in a team, the team must be visible to the authenticated user.",
+          "description": "Team members will include the members of child teams.\n\nEach member includes their `role` on the team (`member` or `maintainer`) and an `inherited` flag indicating whether the membership is inherited from a child team (`true`) or is a direct membership (`false`). These fields let you read a member's role and direct/inherited status without additional requests.\n\nTo list members in a team, the team must be visible to the authenticated user.\n\n\u003e [!NOTE]\n\u003e You can also specify a team by `org_id` and `team_id` using the route `GET /organizations/{org_id}/team/{team_id}/members`.",
           "externalDocs": {
             "description": "API method documentation",
             "url": "https://docs.github.com/enterprise-cloud@latest/rest/teams/members#list-team-members"
@@ -319397,6 +319454,10 @@
                 },
                 "schema": {
                   "properties": {
+                    "archived": {
+                      "description": "Whether to archive or unarchive the label. Archived labels cannot be added to issues or pull requests. For more information, see \"[Archiving labels](https://docs.github.com/enterprise-cloud@latest/issues/organizing-your-work-with-labels/managing-labels).\"",
+                      "type": "boolean"
+                    },
                     "color": {
                       "description": "The [hexadecimal color code](http://www.color-hex.com/) for the label, without the leading `#`.",
                       "type": "string"
@@ -373284,5 +373345,6 @@
         }
       }
     }
-  }
+  },
+  "schema_url": "https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/ghec/ghec.json"
 }

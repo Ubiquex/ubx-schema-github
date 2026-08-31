@@ -1,10 +1,14 @@
 {
   "schema_format": 3,
   "provider": "github",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "members": [
     "github",
     "github_ds"
   ],
-  "min_binary_version": "1.0.2"
+  "min_binary_version": "1.0.7",
+  "schema_urls": {
+    "github": "https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/ghec/ghec.json",
+    "github_ds": "https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/ghec/ghec.json"
+  }
 }
