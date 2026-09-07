@@ -4376,136 +4376,6 @@
             }
           }
         },
-        "classroom": {
-          "value": {
-            "archived": "false,",
-            "id": 1296269,
-            "name": "Programming Elixir",
-            "organization": {
-              "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
-              "html_url": "https://github.com/programming-elixir",
-              "id": 1,
-              "login": "programming-elixir",
-              "name": "Learn how to build fault tolerant applications",
-              "node_id": "MDEyOk9yZ2FuaXphdGlvbjE="
-            },
-            "url": "https://classroom.github.com/classrooms/1-programming-elixir"
-          }
-        },
-        "classroom-accepted-assignment": {
-          "value": {
-            "assignment": {
-              "accepted": 100,
-              "classroom": {
-                "archived": "false,",
-                "id": 1296269,
-                "name": "Programming Elixir",
-                "url": "https://classroom.github.com/classrooms/1-programming-elixir"
-              },
-              "editor": "codespaces",
-              "feedback_pull_requests_enabled": true,
-              "id": "12,",
-              "invitations_enabled": "true,",
-              "invite_link": "https://classroom.github.com/a/Lx7jiUgx",
-              "language": "ruby",
-              "max_members": 0,
-              "max_teams": 0,
-              "passing": 10,
-              "public_repo": "false,",
-              "slug": "intro-to-binaries",
-              "students_are_repo_admins": false,
-              "submitted": 40,
-              "title": "Intro to Binaries",
-              "type": "individual"
-            },
-            "commit_count": 5,
-            "grade": "5/10",
-            "id": "12,",
-            "passing": "false,",
-            "repository": {
-              "default_branch": "main",
-              "full_name": "octocat/Hello-World",
-              "html_url": "https://github.com/octocat/Hello-World",
-              "id": 1296269,
-              "node_id": "MDEwOlJlcG9zaXRvcnkxMjk2MjY5",
-              "private": false
-            },
-            "students": [
-              {
-                "avatar_url": "https://github.com/images/error/octocat_happy.gif",
-                "html_url": "https://github.com/octocat",
-                "id": 1,
-                "login": "octocat"
-              }
-            ],
-            "submitted": "false,"
-          }
-        },
-        "classroom-assignment": {
-          "value": {
-            "accepted": 100,
-            "classroom": {
-              "archived": "false,",
-              "id": 1296269,
-              "name": "Programming Elixir",
-              "url": "https://classroom.github.com/classrooms/1-programming-elixir"
-            },
-            "deadline": "2011-01-26T19:06:43Z",
-            "editor": "codespaces",
-            "feedback_pull_requests_enabled": true,
-            "id": "12,",
-            "invitations_enabled": "true,",
-            "invite_link": "https://classroom.github.com/a/Lx7jiUgx",
-            "language": "ruby",
-            "max_members": 0,
-            "max_teams": 0,
-            "passing": 10,
-            "public_repo": "false,",
-            "slug": "intro-to-binaries",
-            "stater_code_repository": {
-              "default_branch": "main",
-              "full_name": "octocat/Hello-World",
-              "html_url": "https://github.com/octocat/Hello-World",
-              "id": 1296269,
-              "node_id": "MDEwOlJlcG9zaXRvcnkxMjk2MjY5",
-              "private": false
-            },
-            "students_are_repo_admins": false,
-            "submitted": 40,
-            "title": "Intro to Binaries",
-            "type": "individual"
-          }
-        },
-        "classroom-assignment-grades": {
-          "value": [
-            {
-              "assignment_name": "Introduction to Strings",
-              "assignment_url": "https://classroom.github.com/classrooms/1337/assignments/1337",
-              "github_username": "octocat",
-              "group_name": "octocat-and-friends",
-              "points_available": 15,
-              "points_awarded": 10,
-              "roster_identifier": "octocat@github.com",
-              "starter_code_url": "",
-              "student_repository_name": "intro-to-strings-1337-octocat",
-              "student_repository_url": "https://github.com/timeforschool/intro-to-strings-1337-octocat",
-              "submission_timestamp": "2018-11-12 01:02"
-            },
-            {
-              "assignment_name": "Introduction to Strings",
-              "assignment_url": "https://classroom.github.com/classrooms/1337/assignments/1337",
-              "github_username": "monalisa",
-              "group_name": "monalisa-and-friends",
-              "points_available": 15,
-              "points_awarded": 15,
-              "roster_identifier": "monalisa@github.com",
-              "starter_code_url": "",
-              "student_repository_name": "intro-to-strings-1337-monalisa",
-              "student_repository_url": "https://github.com/timeforschool/intro-to-strings-1337-monalisa",
-              "submission_timestamp": "2018-11-12 01:11"
-            }
-          ]
-        },
         "clone-traffic": {
           "value": {
             "clones": [
@@ -32318,6 +32188,7 @@
               "formatted": "Monalisa Octocat",
               "givenName": "Monalisa"
             },
+            "profileUrl": "https://github.com/mona",
             "schemas": [
               "urn:ietf:params:scim:schemas:core:2.0:User"
             ],
@@ -33625,41 +33496,6 @@
               "protection_url": "https://api.github.com/repos/octocat/hello-world/branches/master/protection"
             }
           ]
-        },
-        "simple-classroom": {
-          "value": {
-            "archived": "false,",
-            "id": 1296269,
-            "name": "Programming Elixir",
-            "url": "https://classroom.github.com/classrooms/1-programming-elixir"
-          }
-        },
-        "simple-classroom-assignment": {
-          "value": {
-            "accepted": 100,
-            "classroom": {
-              "archived": "false,",
-              "id": 1296269,
-              "name": "Programming Elixir",
-              "url": "https://classroom.github.com/classrooms/1-programming-elixir"
-            },
-            "deadline": "2020-01-11T11:59:22Z",
-            "editor": "codespaces",
-            "feedback_pull_requests_enabled": true,
-            "id": "12,",
-            "invitations_enabled": "true,",
-            "invite_link": "https://classroom.github.com/a/Lx7jiUgx",
-            "language": "ruby",
-            "max_members": 0,
-            "max_teams": 0,
-            "passing": 10,
-            "public_repo": "false,",
-            "slug": "intro-to-binaries",
-            "students_are_repo_admins": false,
-            "submitted": 40,
-            "title": "Intro to Binaries",
-            "type": "individual"
-          }
         },
         "simple-pull-request-review-request": {
           "value": {
@@ -44562,287 +44398,6 @@
           "title": "Check Suite Preference",
           "type": "object"
         },
-        "classroom": {
-          "description": "A GitHub Classroom classroom",
-          "properties": {
-            "archived": {
-              "description": "Whether classroom is archived.",
-              "example": false,
-              "type": "boolean"
-            },
-            "id": {
-              "description": "Unique identifier of the classroom.",
-              "example": 42,
-              "type": "integer"
-            },
-            "name": {
-              "description": "The name of the classroom.",
-              "example": "Programming Elixir",
-              "type": "string"
-            },
-            "organization": {
-              "$ref": "#/components/schemas/simple-classroom-organization"
-            },
-            "url": {
-              "description": "The URL of the classroom on GitHub Classroom.",
-              "example": "https://classroom.github.com/classrooms/1-programming-elixir",
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "name",
-            "archived",
-            "organization",
-            "url"
-          ],
-          "title": "Classroom",
-          "type": "object"
-        },
-        "classroom-accepted-assignment": {
-          "description": "A GitHub Classroom accepted assignment",
-          "properties": {
-            "assignment": {
-              "$ref": "#/components/schemas/simple-classroom-assignment"
-            },
-            "commit_count": {
-              "description": "Count of student commits.",
-              "example": 5,
-              "type": "integer"
-            },
-            "grade": {
-              "description": "Most recent grade.",
-              "example": "10/10",
-              "type": "string"
-            },
-            "id": {
-              "description": "Unique identifier of the repository.",
-              "example": 42,
-              "type": "integer"
-            },
-            "passing": {
-              "description": "Whether a submission passed.",
-              "example": true,
-              "type": "boolean"
-            },
-            "repository": {
-              "$ref": "#/components/schemas/simple-classroom-repository"
-            },
-            "students": {
-              "items": {
-                "$ref": "#/components/schemas/simple-classroom-user"
-              },
-              "type": "array"
-            },
-            "submitted": {
-              "description": "Whether an accepted assignment has been submitted.",
-              "example": true,
-              "type": "boolean"
-            }
-          },
-          "required": [
-            "id",
-            "submitted",
-            "passing",
-            "commit_count",
-            "grade",
-            "students",
-            "repository",
-            "assignment"
-          ],
-          "title": "Classroom Accepted Assignment",
-          "type": "object"
-        },
-        "classroom-assignment": {
-          "description": "A GitHub Classroom assignment",
-          "properties": {
-            "accepted": {
-              "description": "The number of students that have accepted the assignment.",
-              "example": 25,
-              "type": "integer"
-            },
-            "classroom": {
-              "$ref": "#/components/schemas/classroom"
-            },
-            "deadline": {
-              "description": "The time at which the assignment is due.",
-              "example": "2011-01-26T19:06:43Z",
-              "format": "date-time",
-              "nullable": true,
-              "type": "string"
-            },
-            "editor": {
-              "description": "The selected editor for the assignment.",
-              "example": "codespaces",
-              "type": "string"
-            },
-            "feedback_pull_requests_enabled": {
-              "description": "Whether feedback pull request will be created when a student accepts the assignment.",
-              "example": true,
-              "type": "boolean"
-            },
-            "id": {
-              "description": "Unique identifier of the repository.",
-              "example": 42,
-              "type": "integer"
-            },
-            "invitations_enabled": {
-              "description": "Whether the invitation link is enabled. Visiting an enabled invitation link will accept the assignment.",
-              "example": true,
-              "type": "boolean"
-            },
-            "invite_link": {
-              "description": "The link that a student can use to accept the assignment.",
-              "example": "https://classroom.github.com/a/Lx7jiUgx",
-              "type": "string"
-            },
-            "language": {
-              "description": "The programming language used in the assignment.",
-              "example": "elixir",
-              "type": "string"
-            },
-            "max_members": {
-              "description": "The maximum allowable members per team.",
-              "example": 0,
-              "nullable": true,
-              "type": "integer"
-            },
-            "max_teams": {
-              "description": "The maximum allowable teams for the assignment.",
-              "example": 0,
-              "nullable": true,
-              "type": "integer"
-            },
-            "passing": {
-              "description": "The number of students that have passed the assignment.",
-              "example": 10,
-              "type": "integer"
-            },
-            "public_repo": {
-              "description": "Whether an accepted assignment creates a public repository.",
-              "example": true,
-              "type": "boolean"
-            },
-            "slug": {
-              "description": "Sluggified name of the assignment.",
-              "example": "intro-to-binaries",
-              "type": "string"
-            },
-            "starter_code_repository": {
-              "$ref": "#/components/schemas/simple-classroom-repository"
-            },
-            "students_are_repo_admins": {
-              "description": "Whether students are admins on created repository when a student accepts the assignment.",
-              "example": true,
-              "type": "boolean"
-            },
-            "submitted": {
-              "description": "The number of students that have submitted the assignment.",
-              "example": 10,
-              "type": "integer"
-            },
-            "title": {
-              "description": "Assignment title.",
-              "example": "Intro to Binaries",
-              "type": "string"
-            },
-            "type": {
-              "description": "Whether it's a group assignment or individual assignment.",
-              "enum": [
-                "individual",
-                "group"
-              ],
-              "example": "individual",
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "public_repo",
-            "title",
-            "type",
-            "invite_link",
-            "invitations_enabled",
-            "slug",
-            "students_are_repo_admins",
-            "feedback_pull_requests_enabled",
-            "max_teams",
-            "max_members",
-            "editor",
-            "accepted",
-            "submitted",
-            "passing",
-            "language",
-            "deadline",
-            "starter_code_repository",
-            "classroom"
-          ],
-          "title": "Classroom Assignment",
-          "type": "object"
-        },
-        "classroom-assignment-grade": {
-          "description": "Grade for a student or groups GitHub Classroom assignment",
-          "properties": {
-            "assignment_name": {
-              "description": "Name of the assignment",
-              "type": "string"
-            },
-            "assignment_url": {
-              "description": "URL of the assignment",
-              "type": "string"
-            },
-            "github_username": {
-              "description": "GitHub username of the student",
-              "type": "string"
-            },
-            "group_name": {
-              "description": "If a group assignment, name of the group the student is in",
-              "type": "string"
-            },
-            "points_available": {
-              "description": "Number of points available for the assignment",
-              "type": "integer"
-            },
-            "points_awarded": {
-              "description": "Number of points awarded to the student",
-              "type": "integer"
-            },
-            "roster_identifier": {
-              "description": "Roster identifier of the student",
-              "type": "string"
-            },
-            "starter_code_url": {
-              "description": "URL of the starter code for the assignment",
-              "type": "string"
-            },
-            "student_repository_name": {
-              "description": "Name of the student's assignment repository",
-              "type": "string"
-            },
-            "student_repository_url": {
-              "description": "URL of the student's assignment repository",
-              "type": "string"
-            },
-            "submission_timestamp": {
-              "description": "Timestamp of the student's assignment submission",
-              "type": "string"
-            }
-          },
-          "required": [
-            "assignment_name",
-            "assignment_url",
-            "starter_code_url",
-            "github_username",
-            "roster_identifier",
-            "student_repository_name",
-            "student_repository_url",
-            "submission_timestamp",
-            "points_awarded",
-            "points_available"
-          ],
-          "title": "Classroom Assignment Grade",
-          "type": "object"
-        },
         "clone-traffic": {
           "description": "Clone Traffic",
           "properties": {
@@ -50921,6 +50476,7 @@
               "nullable": true,
               "oneOf": [
                 {
+                  "nullable": true,
                   "type": "string"
                 },
                 {
@@ -50985,6 +50541,7 @@
               "nullable": true,
               "oneOf": [
                 {
+                  "nullable": true,
                   "type": "string"
                 },
                 {
@@ -77795,6 +77352,77 @@
           ],
           "type": "object"
         },
+        "repository-advisory-description-validation-error": {
+          "description": "The description does not answer the repository's report template.",
+          "properties": {
+            "documentation_url": {
+              "type": "string"
+            },
+            "errors": {
+              "items": {
+                "properties": {
+                  "code": {
+                    "description": "A machine-readable identifier for the problem. `missing_section`, `empty_section`, `unchecked_required_option`, and `sections_out_of_order` come from validating the description against the repository's report template; other codes are shared with other validation failures on this endpoint.",
+                    "type": "string"
+                  },
+                  "field": {
+                    "type": "string"
+                  },
+                  "index": {
+                    "type": "integer"
+                  },
+                  "message": {
+                    "type": "string"
+                  },
+                  "option": {
+                    "description": "The checkbox option left unticked. Only present when `code` is `unchecked_required_option`.",
+                    "type": "string"
+                  },
+                  "resource": {
+                    "type": "string"
+                  },
+                  "section": {
+                    "description": "The report template section the violation concerns.",
+                    "type": "string"
+                  },
+                  "value": {
+                    "oneOf": [
+                      {
+                        "nullable": true,
+                        "type": "string"
+                      },
+                      {
+                        "nullable": true,
+                        "type": "integer"
+                      },
+                      {
+                        "items": {
+                          "type": "string"
+                        },
+                        "nullable": true,
+                        "type": "array"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "code"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "message": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "message",
+            "documentation_url"
+          ],
+          "title": "Repository Advisory Description Validation Error",
+          "type": "object"
+        },
         "repository-advisory-update": {
           "additionalProperties": false,
           "properties": {
@@ -82406,6 +82034,13 @@
               "description": "The ID of the organization.",
               "type": "integer"
             },
+            "profileUrl": {
+              "description": "The URL of the linked GitHub user's profile.",
+              "example": "https://github.com/octocat",
+              "format": "uri",
+              "nullable": true,
+              "type": "string"
+            },
             "roles": {
               "items": {
                 "properties": {
@@ -84884,277 +84519,6 @@
           },
           "type": "object"
         },
-        "simple-classroom": {
-          "description": "A GitHub Classroom classroom",
-          "properties": {
-            "archived": {
-              "description": "Returns whether classroom is archived or not.",
-              "example": false,
-              "type": "boolean"
-            },
-            "id": {
-              "description": "Unique identifier of the classroom.",
-              "example": 42,
-              "type": "integer"
-            },
-            "name": {
-              "description": "The name of the classroom.",
-              "example": "Programming Elixir",
-              "type": "string"
-            },
-            "url": {
-              "description": "The url of the classroom on GitHub Classroom.",
-              "example": "https://classroom.github.com/classrooms/1-programming-elixir",
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "name",
-            "archived",
-            "url"
-          ],
-          "title": "Simple Classroom",
-          "type": "object"
-        },
-        "simple-classroom-assignment": {
-          "description": "A GitHub Classroom assignment",
-          "properties": {
-            "accepted": {
-              "description": "The number of students that have accepted the assignment.",
-              "example": 25,
-              "type": "integer"
-            },
-            "classroom": {
-              "$ref": "#/components/schemas/simple-classroom"
-            },
-            "deadline": {
-              "description": "The time at which the assignment is due.",
-              "example": "2011-01-26T19:06:43Z",
-              "format": "date-time",
-              "nullable": true,
-              "type": "string"
-            },
-            "editor": {
-              "description": "The selected editor for the assignment.",
-              "example": "codespaces",
-              "type": "string"
-            },
-            "feedback_pull_requests_enabled": {
-              "description": "Whether feedback pull request will be created on assignment acceptance.",
-              "example": true,
-              "type": "boolean"
-            },
-            "id": {
-              "description": "Unique identifier of the repository.",
-              "example": 42,
-              "type": "integer"
-            },
-            "invitations_enabled": {
-              "description": "Whether the invitation link is enabled. Visiting an enabled invitation link will accept the assignment.",
-              "example": true,
-              "type": "boolean"
-            },
-            "invite_link": {
-              "description": "The link that a student can use to accept the assignment.",
-              "example": "https://classroom.github.com/a/Lx7jiUgx",
-              "type": "string"
-            },
-            "language": {
-              "description": "The programming language used in the assignment.",
-              "example": "elixir",
-              "type": "string"
-            },
-            "max_members": {
-              "description": "The maximum allowable members per team.",
-              "example": 0,
-              "nullable": true,
-              "type": "integer"
-            },
-            "max_teams": {
-              "description": "The maximum allowable teams for the assignment.",
-              "example": 0,
-              "nullable": true,
-              "type": "integer"
-            },
-            "passing": {
-              "description": "The number of students that have passed the assignment.",
-              "example": 10,
-              "type": "integer"
-            },
-            "public_repo": {
-              "description": "Whether an accepted assignment creates a public repository.",
-              "example": true,
-              "type": "boolean"
-            },
-            "slug": {
-              "description": "Sluggified name of the assignment.",
-              "example": "intro-to-binaries",
-              "type": "string"
-            },
-            "students_are_repo_admins": {
-              "description": "Whether students are admins on created repository on accepted assignment.",
-              "example": true,
-              "type": "boolean"
-            },
-            "submitted": {
-              "description": "The number of students that have submitted the assignment.",
-              "example": 10,
-              "type": "integer"
-            },
-            "title": {
-              "description": "Assignment title.",
-              "example": "Intro to Binaries",
-              "type": "string"
-            },
-            "type": {
-              "description": "Whether it's a Group Assignment or Individual Assignment.",
-              "enum": [
-                "individual",
-                "group"
-              ],
-              "example": "individual",
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "public_repo",
-            "title",
-            "type",
-            "invite_link",
-            "invitations_enabled",
-            "slug",
-            "students_are_repo_admins",
-            "feedback_pull_requests_enabled",
-            "editor",
-            "accepted",
-            "submitted",
-            "passing",
-            "language",
-            "deadline",
-            "classroom"
-          ],
-          "title": "Simple Classroom Assignment",
-          "type": "object"
-        },
-        "simple-classroom-organization": {
-          "description": "A GitHub organization.",
-          "properties": {
-            "avatar_url": {
-              "example": "https://github.com/images/error/octocat_happy.gif",
-              "type": "string"
-            },
-            "html_url": {
-              "example": "https://github.com/github",
-              "format": "uri",
-              "type": "string"
-            },
-            "id": {
-              "example": 1,
-              "type": "integer"
-            },
-            "login": {
-              "example": "github",
-              "type": "string"
-            },
-            "name": {
-              "example": "Github - Code thigns happen here",
-              "nullable": true,
-              "type": "string"
-            },
-            "node_id": {
-              "example": "MDEyOk9yZ2FuaXphdGlvbjE=",
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "login",
-            "node_id",
-            "html_url",
-            "name",
-            "avatar_url"
-          ],
-          "title": "Organization Simple for Classroom",
-          "type": "object"
-        },
-        "simple-classroom-repository": {
-          "description": "A GitHub repository view for Classroom",
-          "properties": {
-            "default_branch": {
-              "description": "The default branch for the repository.",
-              "example": "main",
-              "type": "string"
-            },
-            "full_name": {
-              "description": "The full, globally unique name of the repository.",
-              "example": "octocat/Hello-World",
-              "type": "string"
-            },
-            "html_url": {
-              "description": "The URL to view the repository on GitHub.com.",
-              "example": "https://github.com/octocat/Hello-World",
-              "format": "uri",
-              "type": "string"
-            },
-            "id": {
-              "description": "A unique identifier of the repository.",
-              "example": 1296269,
-              "type": "integer"
-            },
-            "node_id": {
-              "description": "The GraphQL identifier of the repository.",
-              "example": "MDEwOlJlcG9zaXRvcnkxMjk2MjY5",
-              "type": "string"
-            },
-            "private": {
-              "description": "Whether the repository is private.",
-              "type": "boolean"
-            }
-          },
-          "required": [
-            "id",
-            "full_name",
-            "html_url",
-            "node_id",
-            "private",
-            "default_branch"
-          ],
-          "title": "Simple Classroom Repository",
-          "type": "object"
-        },
-        "simple-classroom-user": {
-          "description": "A GitHub user simplified for Classroom.",
-          "properties": {
-            "avatar_url": {
-              "example": "https://github.com/images/error/octocat_happy.gif",
-              "format": "uri",
-              "type": "string"
-            },
-            "html_url": {
-              "example": "https://github.com/octocat",
-              "format": "uri",
-              "type": "string"
-            },
-            "id": {
-              "example": 1,
-              "type": "integer"
-            },
-            "login": {
-              "example": "octocat",
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "login",
-            "avatar_url",
-            "html_url"
-          ],
-          "title": "Simple Classroom User",
-          "type": "object"
-        },
         "simple-commit": {
           "description": "A commit.",
           "properties": {
@@ -85933,6 +85297,44 @@
             "user"
           ],
           "title": "Stargazer",
+          "type": "object"
+        },
+        "stargazer-history": {
+          "description": "Stargazer History",
+          "properties": {
+            "days": {
+              "description": "The number of stars created on each day of the week, starting on Sunday.",
+              "example": [
+                0,
+                12,
+                7,
+                0,
+                0,
+                0,
+                0
+              ],
+              "items": {
+                "type": "integer"
+              },
+              "type": "array"
+            },
+            "total": {
+              "description": "The number of stars created during the week.",
+              "example": 19,
+              "type": "integer"
+            },
+            "week": {
+              "description": "The start of the week, given as a Unix timestamp.",
+              "example": 1754784000,
+              "type": "integer"
+            }
+          },
+          "required": [
+            "days",
+            "total",
+            "week"
+          ],
+          "title": "Stargazer History",
           "type": "object"
         },
         "starred-repository": {
@@ -139597,7 +138999,7 @@
               "$ref": "#/components/schemas/simple-installation"
             },
             "number": {
-              "type": "integer"
+              "$ref": "#/components/schemas/webhooks_number"
             },
             "organization": {
               "$ref": "#/components/schemas/organization-simple-webhooks"
@@ -142644,7 +142046,7 @@
               "$ref": "#/components/schemas/simple-installation"
             },
             "number": {
-              "type": "integer"
+              "$ref": "#/components/schemas/webhooks_number"
             },
             "organization": {
               "$ref": "#/components/schemas/organization-simple-webhooks"
@@ -145766,6 +145168,9 @@
             "enterprise": {
               "$ref": "#/components/schemas/enterprise-webhooks"
             },
+            "installation": {
+              "$ref": "#/components/schemas/simple-installation"
+            },
             "milestone": {
               "$ref": "#/components/schemas/milestone"
             },
@@ -145789,7 +145194,8 @@
             "action",
             "number",
             "pull_request",
-            "repository"
+            "repository",
+            "sender"
           ],
           "title": "pull_request demilestoned event",
           "type": "object"
@@ -145809,7 +145215,7 @@
               "$ref": "#/components/schemas/simple-installation"
             },
             "number": {
-              "type": "integer"
+              "$ref": "#/components/schemas/webhooks_number"
             },
             "organization": {
               "$ref": "#/components/schemas/organization-simple-webhooks"
@@ -148928,7 +148334,8 @@
             "changes",
             "number",
             "pull_request",
-            "repository"
+            "repository",
+            "sender"
           ],
           "title": "pull_request edited event",
           "type": "object"
@@ -148948,7 +148355,7 @@
               "$ref": "#/components/schemas/simple-installation"
             },
             "number": {
-              "type": "integer"
+              "$ref": "#/components/schemas/webhooks_number"
             },
             "organization": {
               "$ref": "#/components/schemas/organization-simple-webhooks"
@@ -158063,6 +157470,9 @@
             "enterprise": {
               "$ref": "#/components/schemas/enterprise-webhooks"
             },
+            "installation": {
+              "$ref": "#/components/schemas/simple-installation"
+            },
             "milestone": {
               "$ref": "#/components/schemas/milestone"
             },
@@ -158086,7 +157496,8 @@
             "action",
             "number",
             "pull_request",
-            "repository"
+            "repository",
+            "sender"
           ],
           "title": "pull_request milestoned event",
           "type": "object"
@@ -204184,7 +203595,8 @@
             "action",
             "number",
             "pull_request",
-            "repository"
+            "repository",
+            "sender"
           ],
           "title": "pull_request unassigned event",
           "type": "object",
@@ -240521,10 +239933,10 @@
       "/assignments/{assignment_id}": {
         "get": {
           "deprecated": true,
-          "description": "\u003e [!WARNING]\n\u003e **Closing down notice:** This operation is closing down and will be removed on August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).\n\nGets a GitHub Classroom assignment. Assignment will only be returned if the current user is an administrator of the GitHub Classroom for the assignment.",
+          "description": "\u003e [!WARNING]\n\u003e **Closed notice:** This operation is no longer available as of August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).",
           "externalDocs": {
             "description": "API method documentation",
-            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closing-down---get-an-assignment"
+            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closed---get-an-assignment"
           },
           "operationId": "classroom/get-an-assignment",
           "parameters": [
@@ -240533,36 +239945,18 @@
             }
           ],
           "responses": {
-            "200": {
-              "content": {
-                "application/json": {
-                  "examples": {
-                    "default": {
-                      "$ref": "#/components/examples/classroom-assignment"
-                    }
-                  },
-                  "schema": {
-                    "$ref": "#/components/schemas/classroom-assignment"
-                  }
-                }
-              },
-              "description": "Response"
-            },
-            "404": {
-              "$ref": "#/components/responses/not_found"
-            },
             "410": {
               "$ref": "#/components/responses/gone"
             }
           },
-          "summary": "Closing down - Get an assignment",
+          "summary": "Closed - Get an assignment",
           "tags": [
             "classroom"
           ],
           "x-github": {
             "category": "classroom",
             "deprecationDate": "2026-05-22",
-            "enabledForGitHubApps": true,
+            "enabledForGitHubApps": false,
             "removalDate": "2026-08-28",
             "subcategory": "classroom"
           }
@@ -240571,54 +239965,30 @@
       "/assignments/{assignment_id}/accepted_assignments": {
         "get": {
           "deprecated": true,
-          "description": "\u003e [!WARNING]\n\u003e **Closing down notice:** This operation is closing down and will be removed on August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).\n\nLists any assignment repositories that have been created by students accepting a GitHub Classroom assignment. Accepted assignments will only be returned if the current user is an administrator of the GitHub Classroom for the assignment.",
+          "description": "\u003e [!WARNING]\n\u003e **Closed notice:** This operation is no longer available as of August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).",
           "externalDocs": {
             "description": "API method documentation",
-            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closing-down---list-accepted-assignments-for-an-assignment"
+            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closed---list-accepted-assignments-for-an-assignment"
           },
           "operationId": "classroom/list-accepted-assignments-for-an-assignment",
           "parameters": [
             {
               "$ref": "#/components/parameters/assignment-id"
-            },
-            {
-              "$ref": "#/components/parameters/page"
-            },
-            {
-              "$ref": "#/components/parameters/per-page"
             }
           ],
           "responses": {
-            "200": {
-              "content": {
-                "application/json": {
-                  "examples": {
-                    "default": {
-                      "$ref": "#/components/examples/classroom-accepted-assignment"
-                    }
-                  },
-                  "schema": {
-                    "items": {
-                      "$ref": "#/components/schemas/classroom-accepted-assignment"
-                    },
-                    "type": "array"
-                  }
-                }
-              },
-              "description": "Response"
-            },
             "410": {
               "$ref": "#/components/responses/gone"
             }
           },
-          "summary": "Closing down - List accepted assignments for an assignment",
+          "summary": "Closed - List accepted assignments for an assignment",
           "tags": [
             "classroom"
           ],
           "x-github": {
             "category": "classroom",
             "deprecationDate": "2026-05-22",
-            "enabledForGitHubApps": true,
+            "enabledForGitHubApps": false,
             "removalDate": "2026-08-28",
             "subcategory": "classroom"
           }
@@ -240627,10 +239997,10 @@
       "/assignments/{assignment_id}/grades": {
         "get": {
           "deprecated": true,
-          "description": "\u003e [!WARNING]\n\u003e **Closing down notice:** This operation is closing down and will be removed on August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).\n\nGets grades for a GitHub Classroom assignment. Grades will only be returned if the current user is an administrator of the GitHub Classroom for the assignment.",
+          "description": "\u003e [!WARNING]\n\u003e **Closed notice:** This operation is no longer available as of August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).",
           "externalDocs": {
             "description": "API method documentation",
-            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closing-down---get-assignment-grades"
+            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closed---get-assignment-grades"
           },
           "operationId": "classroom/get-assignment-grades",
           "parameters": [
@@ -240639,39 +240009,18 @@
             }
           ],
           "responses": {
-            "200": {
-              "content": {
-                "application/json": {
-                  "examples": {
-                    "default": {
-                      "$ref": "#/components/examples/classroom-assignment-grades"
-                    }
-                  },
-                  "schema": {
-                    "items": {
-                      "$ref": "#/components/schemas/classroom-assignment-grade"
-                    },
-                    "type": "array"
-                  }
-                }
-              },
-              "description": "Response"
-            },
-            "404": {
-              "$ref": "#/components/responses/not_found"
-            },
             "410": {
               "$ref": "#/components/responses/gone"
             }
           },
-          "summary": "Closing down - Get assignment grades",
+          "summary": "Closed - Get assignment grades",
           "tags": [
             "classroom"
           ],
           "x-github": {
             "category": "classroom",
             "deprecationDate": "2026-05-22",
-            "enabledForGitHubApps": true,
+            "enabledForGitHubApps": false,
             "removalDate": "2026-08-28",
             "subcategory": "classroom"
           }
@@ -240680,51 +240029,25 @@
       "/classrooms": {
         "get": {
           "deprecated": true,
-          "description": "\u003e [!WARNING]\n\u003e **Closing down notice:** This operation is closing down and will be removed on August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).\n\nLists GitHub Classroom classrooms for the current user. Classrooms will only be returned if the current user is an administrator of one or more GitHub Classrooms.",
+          "description": "\u003e [!WARNING]\n\u003e **Closed notice:** This operation is no longer available as of August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).",
           "externalDocs": {
             "description": "API method documentation",
-            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closing-down---list-classrooms"
+            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closed---list-classrooms"
           },
           "operationId": "classroom/list-classrooms",
-          "parameters": [
-            {
-              "$ref": "#/components/parameters/page"
-            },
-            {
-              "$ref": "#/components/parameters/per-page"
-            }
-          ],
           "responses": {
-            "200": {
-              "content": {
-                "application/json": {
-                  "examples": {
-                    "default": {
-                      "$ref": "#/components/examples/simple-classroom"
-                    }
-                  },
-                  "schema": {
-                    "items": {
-                      "$ref": "#/components/schemas/simple-classroom"
-                    },
-                    "type": "array"
-                  }
-                }
-              },
-              "description": "Response"
-            },
             "410": {
               "$ref": "#/components/responses/gone"
             }
           },
-          "summary": "Closing down - List classrooms",
+          "summary": "Closed - List classrooms",
           "tags": [
             "classroom"
           ],
           "x-github": {
             "category": "classroom",
             "deprecationDate": "2026-05-22",
-            "enabledForGitHubApps": true,
+            "enabledForGitHubApps": false,
             "removalDate": "2026-08-28",
             "subcategory": "classroom"
           }
@@ -240733,10 +240056,10 @@
       "/classrooms/{classroom_id}": {
         "get": {
           "deprecated": true,
-          "description": "\u003e [!WARNING]\n\u003e **Closing down notice:** This operation is closing down and will be removed on August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).\n\nGets a GitHub Classroom classroom for the current user. Classroom will only be returned if the current user is an administrator of the GitHub Classroom.",
+          "description": "\u003e [!WARNING]\n\u003e **Closed notice:** This operation is no longer available as of August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).",
           "externalDocs": {
             "description": "API method documentation",
-            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closing-down---get-a-classroom"
+            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closed---get-a-classroom"
           },
           "operationId": "classroom/get-a-classroom",
           "parameters": [
@@ -240745,36 +240068,18 @@
             }
           ],
           "responses": {
-            "200": {
-              "content": {
-                "application/json": {
-                  "examples": {
-                    "default": {
-                      "$ref": "#/components/examples/classroom"
-                    }
-                  },
-                  "schema": {
-                    "$ref": "#/components/schemas/classroom"
-                  }
-                }
-              },
-              "description": "Response"
-            },
-            "404": {
-              "$ref": "#/components/responses/not_found"
-            },
             "410": {
               "$ref": "#/components/responses/gone"
             }
           },
-          "summary": "Closing down - Get a classroom",
+          "summary": "Closed - Get a classroom",
           "tags": [
             "classroom"
           ],
           "x-github": {
             "category": "classroom",
             "deprecationDate": "2026-05-22",
-            "enabledForGitHubApps": true,
+            "enabledForGitHubApps": false,
             "removalDate": "2026-08-28",
             "subcategory": "classroom"
           }
@@ -240783,54 +240088,30 @@
       "/classrooms/{classroom_id}/assignments": {
         "get": {
           "deprecated": true,
-          "description": "\u003e [!WARNING]\n\u003e **Closing down notice:** This operation is closing down and will be removed on August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).\n\nLists GitHub Classroom assignments for a classroom. Assignments will only be returned if the current user is an administrator of the GitHub Classroom.",
+          "description": "\u003e [!WARNING]\n\u003e **Closed notice:** This operation is no longer available as of August 28, 2026.\n\u003e For more information, see the [GitHub Classroom sunset notice](https://gh.io/classroom-sunset).",
           "externalDocs": {
             "description": "API method documentation",
-            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closing-down---list-assignments-for-a-classroom"
+            "url": "https://docs.github.com/enterprise-cloud@latest/rest/classroom/classroom#closed---list-assignments-for-a-classroom"
           },
           "operationId": "classroom/list-assignments-for-a-classroom",
           "parameters": [
             {
               "$ref": "#/components/parameters/classroom-id"
-            },
-            {
-              "$ref": "#/components/parameters/page"
-            },
-            {
-              "$ref": "#/components/parameters/per-page"
             }
           ],
           "responses": {
-            "200": {
-              "content": {
-                "application/json": {
-                  "examples": {
-                    "default": {
-                      "$ref": "#/components/examples/simple-classroom-assignment"
-                    }
-                  },
-                  "schema": {
-                    "items": {
-                      "$ref": "#/components/schemas/simple-classroom-assignment"
-                    },
-                    "type": "array"
-                  }
-                }
-              },
-              "description": "Response"
-            },
             "410": {
               "$ref": "#/components/responses/gone"
             }
           },
-          "summary": "Closing down - List assignments for a classroom",
+          "summary": "Closed - List assignments for a classroom",
           "tags": [
             "classroom"
           ],
           "x-github": {
             "category": "classroom",
             "deprecationDate": "2026-05-22",
-            "enabledForGitHubApps": true,
+            "enabledForGitHubApps": false,
             "removalDate": "2026-08-28",
             "subcategory": "classroom"
           }
@@ -264369,7 +263650,7 @@
           "x-github": {
             "category": "actions",
             "enabledForGitHubApps": true,
-            "githubCloudOnly": true,
+            "githubCloudOnly": false,
             "subcategory": "self-hosted-runners"
           }
         }
@@ -292683,7 +291964,7 @@
           "x-github": {
             "category": "actions",
             "enabledForGitHubApps": true,
-            "githubCloudOnly": true,
+            "githubCloudOnly": false,
             "subcategory": "self-hosted-runners"
           }
         }
@@ -327578,7 +326859,14 @@
               "$ref": "#/components/responses/not_found"
             },
             "422": {
-              "$ref": "#/components/responses/validation_failed"
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/repository-advisory-description-validation-error"
+                  }
+                }
+              },
+              "description": "Validation failed."
             }
           },
           "summary": "Create a repository security advisory",
@@ -327667,7 +326955,45 @@
               "$ref": "#/components/responses/not_found"
             },
             "422": {
-              "$ref": "#/components/responses/validation_failed"
+              "content": {
+                "application/json": {
+                  "examples": {
+                    "missing_section": {
+                      "value": {
+                        "documentation_url": "https://docs.github.com/enterprise-cloud@latest/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability",
+                        "errors": [
+                          {
+                            "code": "missing_section",
+                            "field": "description",
+                            "resource": "RepositoryAdvisory",
+                            "section": "Impact"
+                          }
+                        ],
+                        "message": "Advisory description does not satisfy this repository's report template."
+                      }
+                    },
+                    "unchecked_required_option": {
+                      "value": {
+                        "documentation_url": "https://docs.github.com/enterprise-cloud@latest/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability",
+                        "errors": [
+                          {
+                            "code": "unchecked_required_option",
+                            "field": "description",
+                            "option": "I have read the reporting guidelines",
+                            "resource": "RepositoryAdvisory",
+                            "section": "Terms"
+                          }
+                        ],
+                        "message": "Advisory description does not satisfy this repository's report template."
+                      }
+                    }
+                  },
+                  "schema": {
+                    "$ref": "#/components/schemas/repository-advisory-description-validation-error"
+                  }
+                }
+              },
+              "description": "Validation failed."
             }
           },
           "summary": "Privately report a security vulnerability",
@@ -329380,6 +328706,99 @@
             }
           },
           "summary": "Get stargazer count",
+          "tags": [
+            "activity"
+          ],
+          "x-github": {
+            "category": "activity",
+            "enabledForGitHubApps": true,
+            "githubCloudOnly": false,
+            "subcategory": "starring"
+          }
+        }
+      },
+      "/repos/{owner}/{repo}/stargazers/history": {
+        "get": {
+          "description": "Returns repository stars grouped by calendar weeks, most recent first. Pages move backward toward the repository's creation week, and weeks within a page are ordered newest to oldest, so concatenating pages produces one continuous series. Weeks without stars contain zero counts. Week and day boundaries are not guaranteed to align with UTC. The `days` array contains the number of stars created on each day of the week, starting on Sunday.",
+          "externalDocs": {
+            "description": "API method documentation",
+            "url": "https://docs.github.com/enterprise-cloud@latest/rest/activity/starring#get-repository-star-history"
+          },
+          "operationId": "activity/get-stargazer-history-for-repo",
+          "parameters": [
+            {
+              "$ref": "#/components/parameters/owner"
+            },
+            {
+              "$ref": "#/components/parameters/repo"
+            },
+            {
+              "description": "The number of results per page (max 30). For more information, see \"[Using pagination in the REST API](https://docs.github.com/enterprise-cloud@latest/rest/using-the-rest-api/using-pagination-in-the-rest-api).\"",
+              "in": "query",
+              "name": "per_page",
+              "schema": {
+                "default": 30,
+                "maximum": 30,
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            {
+              "description": "The page number of the results to fetch (max 100). For more information, see \"[Using pagination in the REST API](https://docs.github.com/enterprise-cloud@latest/rest/using-the-rest-api/using-pagination-in-the-rest-api).\"",
+              "in": "query",
+              "name": "page",
+              "schema": {
+                "default": 1,
+                "maximum": 100,
+                "minimum": 1,
+                "type": "integer"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "content": {
+                "application/json": {
+                  "examples": {
+                    "default": {
+                      "value": [
+                        {
+                          "days": [
+                            0,
+                            12,
+                            7,
+                            0,
+                            0,
+                            0,
+                            0
+                          ],
+                          "total": 19,
+                          "week": 1754784000
+                        }
+                      ]
+                    }
+                  },
+                  "schema": {
+                    "items": {
+                      "$ref": "#/components/schemas/stargazer-history"
+                    },
+                    "maxItems": 30,
+                    "type": "array"
+                  }
+                }
+              },
+              "description": "Repository star history",
+              "headers": {
+                "Link": {
+                  "$ref": "#/components/headers/link"
+                }
+              }
+            },
+            "422": {
+              "$ref": "#/components/responses/validation_failed"
+            }
+          },
+          "summary": "Get repository star history",
           "tags": [
             "activity"
           ],
@@ -334446,7 +333865,7 @@
       },
       "/user": {
         "get": {
-          "description": "OAuth app tokens and personal access tokens (classic) need the `user` scope in order for the response to include private profile information.",
+          "description": "OAuth app tokens and personal access tokens (classic) need the `read:user` scope, or the broader `user` scope, for this endpoint to return the private user response. The private user response includes additional fields such as `private_gists`, `total_private_repos`, `owned_private_repos`, `disk_usage`, `collaborators`, and `two_factor_authentication`. Tokens without these scopes receive the public user response.\n\nThe private and public user response types are unrelated to the [private profile](https://docs.github.com/enterprise-cloud@latest/account-and-profile/concepts/personal-profile#private-profiles) setting. A token without scopes still authenticates as the token's owner, so values subject to private profile visibility, such as `followers` and `following`, may differ from an unauthenticated response.",
           "externalDocs": {
             "description": "API method documentation",
             "url": "https://docs.github.com/enterprise-cloud@latest/rest/users/users#get-the-authenticated-user"
@@ -340942,7 +340361,7 @@
       },
       "/users/{username}": {
         "get": {
-          "description": "Provides publicly available information about someone with a GitHub account.\n\nThe `events_url` value is a URI template. Replace `{/privacy}` with `/public` to retrieve only public events. Omit it to retrieve public events and, when authenticated as the user, private events. For more information, see \"[List events for the authenticated user](https://docs.github.com/enterprise-cloud@latest/rest/activity/events#list-events-for-the-authenticated-user).\"\n\nIf you are requesting information about an [Enterprise Managed User](https://docs.github.com/enterprise-cloud@latest/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/about-enterprise-managed-users), or a GitHub App bot that is installed in an organization that uses Enterprise Managed Users, your requests must be authenticated as a user or GitHub App that has access to the organization to view that account's information. If you are not authorized, the request will return a `404 Not Found` status.\n\nThe `email` key in the following response is the publicly visible email address from your GitHub Enterprise Cloud [profile page](https://github.com/settings/profile). When setting up your profile, you can select a primary email address to be public which provides an email entry for this endpoint. If you do not set a public email address for `email`, then it will have a value of `null`. You only see publicly visible email addresses when authenticated with GitHub Enterprise Cloud. For more information, see [Authentication](https://docs.github.com/enterprise-cloud@latest/rest/guides/getting-started-with-the-rest-api#authentication).\n\nThe Emails API enables you to list all of your email addresses, and toggle a primary email to be visible publicly. For more information, see [Emails API](https://docs.github.com/enterprise-cloud@latest/rest/users/emails).",
+          "description": "Provides publicly available information about someone with a GitHub account.\n\nIf the specified user has a [private profile](https://docs.github.com/enterprise-cloud@latest/account-and-profile/concepts/personal-profile#private-profiles), the `followers` and `following` values are `0` unless the request is authenticated as that user. A request authenticated as the specified user returns the actual values even if the token has no OAuth scopes.\n\nThe `events_url` value is a URI template. Replace `{/privacy}` with `/public` to retrieve only public events. Omit it to retrieve public events and, when authenticated as the user, private events. For more information, see \"[List events for the authenticated user](https://docs.github.com/enterprise-cloud@latest/rest/activity/events#list-events-for-the-authenticated-user).\"\n\nIf you are requesting information about an [Enterprise Managed User](https://docs.github.com/enterprise-cloud@latest/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/about-enterprise-managed-users), or a GitHub App bot that is installed in an organization that uses Enterprise Managed Users, your requests must be authenticated as a user or GitHub App that has access to the organization to view that account's information. If you are not authorized, the request will return a `404 Not Found` status.\n\nThe `email` key in the following response is the publicly visible email address from your GitHub Enterprise Cloud [profile page](https://github.com/settings/profile). When setting up your profile, you can select a primary email address to be public which provides an email entry for this endpoint. If you do not set a public email address for `email`, then it will have a value of `null`. You only see publicly visible email addresses when authenticated with GitHub Enterprise Cloud. For more information, see [Authentication](https://docs.github.com/enterprise-cloud@latest/rest/guides/getting-started-with-the-rest-api#authentication).\n\nThe Emails API enables you to list all of your email addresses, and toggle a primary email to be visible publicly. For more information, see [Emails API](https://docs.github.com/enterprise-cloud@latest/rest/users/emails).",
           "externalDocs": {
             "description": "API method documentation",
             "url": "https://docs.github.com/enterprise-cloud@latest/rest/users/users#get-a-user"
@@ -343217,7 +342636,7 @@
       },
       "/users/{username}/followers": {
         "get": {
-          "description": "Lists the people following the specified user.",
+          "description": "Lists the people following the specified user.\n\nIf the specified user has a [private profile](https://docs.github.com/enterprise-cloud@latest/account-and-profile/concepts/personal-profile#private-profiles), this endpoint returns an empty list unless the request is authenticated as that user. A request authenticated as the specified user returns the list even if the token has no OAuth scopes.",
           "externalDocs": {
             "description": "API method documentation",
             "url": "https://docs.github.com/enterprise-cloud@latest/rest/users/followers#list-followers-of-a-user"
@@ -343273,7 +342692,7 @@
       },
       "/users/{username}/following": {
         "get": {
-          "description": "Lists the people who the specified user follows.",
+          "description": "Lists the people who the specified user follows.\n\nIf the specified user has a [private profile](https://docs.github.com/enterprise-cloud@latest/account-and-profile/concepts/personal-profile#private-profiles), this endpoint returns an empty list unless the request is authenticated as that user. A request authenticated as the specified user returns the list even if the token has no OAuth scopes.",
           "externalDocs": {
             "description": "API method documentation",
             "url": "https://docs.github.com/enterprise-cloud@latest/rest/users/followers#list-the-people-a-user-follows"
@@ -345552,7 +344971,7 @@
       },
       "/users/{username}/starred": {
         "get": {
-          "description": "Lists repositories a user has starred.\n\nThis endpoint supports the following custom media types. For more information, see \"[Media types](https://docs.github.com/enterprise-cloud@latest/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types).\"\n\n- **`application/vnd.github.star+json`**: Includes a timestamp of when the star was created.",
+          "description": "Lists repositories a user has starred.\n\nIf the specified user has a [private profile](https://docs.github.com/enterprise-cloud@latest/account-and-profile/concepts/personal-profile#private-profiles), this endpoint returns an empty list unless the request is authenticated as that user. A request authenticated as the specified user returns starred repositories visible to the token even if the token has no OAuth scopes.\n\nThis endpoint supports the following custom media types. For more information, see \"[Media types](https://docs.github.com/enterprise-cloud@latest/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types).\"\n\n- **`application/vnd.github.star+json`**: Includes a timestamp of when the star was created.",
           "externalDocs": {
             "description": "API method documentation",
             "url": "https://docs.github.com/enterprise-cloud@latest/rest/activity/starring#list-repositories-starred-by-a-user"
